@@ -1,4 +1,4 @@
 <?php
-header("Location: HTML/index.html");
+header("Location: HTML/TSG.html");
 exit();
 ?>
