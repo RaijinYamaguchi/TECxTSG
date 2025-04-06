@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             enableDarkMode();
         }
-        form.classList.toggle("dark-mode");
     });
 
     function enableDarkMode() {
         body.classList.add("dark-mode");
         sidebar.classList.add("dark-mode");
         header.classList.add("dark-mode");
+        form.classList.add("dark-mode"); // Agregar clase al formulario
         darkModeToggle.textContent = "Modo Claro";
         localStorage.setItem("darkMode", "enabled");
     }
@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         body.classList.remove("dark-mode");
         sidebar.classList.remove("dark-mode");
         header.classList.remove("dark-mode");
+        form.classList.remove("dark-mode"); // Quitar clase del formulario
         darkModeToggle.textContent = "Modo Oscuro";
         localStorage.setItem("darkMode", "disabled");
     }
