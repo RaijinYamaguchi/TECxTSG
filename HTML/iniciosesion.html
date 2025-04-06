@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="../ESTILOS/FORM.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Iniciar sesion</title>
 </head>
 <body>
     <div id="sidebar">
         <h2>Menu</h2>
         <ul>
             <li><a href="./Pagina_Principal.html">Inicio</a></li>
-            <li><a href="#">Registrarse</a></li>
-            <li><a href="./iniciosesion.html">Iniciar sesión</a></li>
+            <li><a href="./register.html">Registrarse</a></li>
+            <li><a href="#">Iniciar sesión</a></li>
             <li><a href="./TSG.html">The Santo Grial</a></li>
             <li><a href="./Actividades.html">Actividades recreativas</a></li>
             <li><button  id="darkModeToggle">Modo Oscuro</button></li>
@@ -23,12 +23,10 @@
     <div id="content" >
         <header>
             <button id="toggleButton">☰</button>
-            <h1 id="welcome">Bienvenidos</h1>
+            <h1 id="welcome">Inicio de Sesion</h1>
             <img id="COLAB" src="../Multimedia\Colab.png" alt="">
         </header>
-        <form action="register.php" method="post">
-            <label for="NAME">Nombre: </label>
-            <input type="text" name="NAME" min="3" placeholder="Ingrese su nombre" required>
+        <form action="iniciosesion.php" method="post">
             <label for="Email">Correo electronico</label>
             <input type="email" name="Email" placeholder="Ingrese su correo" required>
             <label for="Password">Contraseña</label>
