@@ -87,7 +87,7 @@ body.dark-mode {
     z-index: 1000;
 }
 #toggleButton:hover{
-    color: rgb(182, 175, 175);
+    color: rgb(11, 11, 11);
 }
 #toggleButton.dark-mode {
     background-color: #282626;
