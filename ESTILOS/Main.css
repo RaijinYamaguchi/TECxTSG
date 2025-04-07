@@ -206,7 +206,7 @@ img{
     transition: opacity 1s ease-in-out;  /* Duración del fade: 1 segundo */
     width: 90%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .image-fader img.active {
