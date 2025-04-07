@@ -133,6 +133,7 @@ header.dark-mode {
     border: 5px solid transparent; /* Borde inicial transparente */
     border-top: none; /* Elimina el borde superior */
     z-index: 1000;
+    border-width: 1px;
     animation: borderAnimation 3s linear infinite; /* Aplica la animación al borde */
 }
 
@@ -236,7 +237,7 @@ img{
     transition: transform 0.3s ease;
 }
 #Texto{
-    left: -1cm;
+    left: 1cm;
     transition: opacity 1s ease-in-out;  /* Duración del fade: 1 segundo */
     width: 90%;
     height: 100%;
@@ -285,7 +286,7 @@ img{
 }
 
 input:checked + .slider {
-    background-color: #007bff; /* Fondo azul cuando está activo */
+    background-color: #429bfa; /* Fondo azul cuando está activo */
 }
 
 input:checked + .slider:before {
