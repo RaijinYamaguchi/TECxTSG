@@ -193,7 +193,7 @@ img{
     position: relative;
     left: 1.5cm;
     width: 90%;
-    height: 50%;
+    height: 75%;
     aspect-ratio: 16 / 9; 
     object-fit: cover;
 }
